@@ -3,17 +3,17 @@ public class 점프와순간이동 {
         solution(5);
     }
     public static int solution(int n){
-        int answer = 0;
+        int ans = 0;
 
         while(n != 0){
             if(n % 2 == 0){
                 n /= 2;
-            }else{
+            } else {
                 n--;
-                answer--;
+                ans++;
             }
         }
 
-        return answer;
+        return ans;
     }
 }
