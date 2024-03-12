@@ -1,7 +1,7 @@
 package SWEA;
 import java.util.Scanner;
 
-class swea_1204
+class SW_1206
 {
     static int N;
     static int[] arr; // 건물 넣는 배열
